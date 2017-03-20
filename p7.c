@@ -13,12 +13,12 @@ char **argv, **envp;
 	int ****p;
 	int ***a, **b, *c, d;
 
-	d=
-	c=
-	b=
-	a=
+	d=3;
+	c=&d;
+	b=&c;
+	a=&b;
 
-	p=
+	p=&a;
 
 
 	printf("%d\n", ****p);

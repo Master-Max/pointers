@@ -10,8 +10,12 @@ struct data {
 
 
 swap(x,y)
-??
+struct data *x,*y;
 {
+	struct data t;
+	t = *x;
+	*x = *y;
+	*y = t;
 }
 
 

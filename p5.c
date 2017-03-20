@@ -14,6 +14,9 @@ struct data {
 fillIt(x)
 struct data *x;
 {
+	//x = malloc(sizeof(x));
+	x->name = "Max";
+	x->age = 19;
 /* add some data */
 }
 

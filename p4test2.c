@@ -7,7 +7,7 @@ main(){
 
 	name = malloc(sizeof("fuck"));
 
-	name = "123";
+	name = "123456789";
 
 	printf("%s\n", name);
 }
